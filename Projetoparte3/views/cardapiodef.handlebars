@@ -1,0 +1,29 @@
+<h1>Cardápio</h1>
+
+<h2>Entradas</h2>
+{{#each entradas}}
+    <div>
+        <h3>{{nome}}</h3>
+        <p>{{ingredientes}}</p>
+        <strong>R$ {{preco}}</strong>
+    </div>
+{{/each}}
+
+<h2>Pratos Principais</h2>
+{{#each pratosPrincipais}}
+    <div>
+        <h3>{{nome}}</h3>
+        <p>{{ingredientes}}</p>
+        <strong>R$ {{preco}}</strong>
+    </div>
+{{/each}}
+
+<h2>Sobremesas</h2>
+{{#each sobremesas}}
+    <div>
+        <h3>{{nome}}</h3>
+        <p>{{ingredientes}}</p>
+        <strong>R$ {{preco}}</strong>
+    </div>
+{{/each}}
+
